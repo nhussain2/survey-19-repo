@@ -6,11 +6,17 @@ const keys = require("../config/keys");
 
 const User = mongoose.model("users");
 
+// add identifier to cookie
 passport.serializeUser((user, done) => {
   done(null, user.id);
 });
 
-passport.deserializeUser((id, done) => {});
+// remove identifier from cookie
+passport.deserializeUser((id, done) => {
+  User.findById(id).then((user) => {
+    done(null, user);
+  });
+});
 
 // inform passport module to use Google strategy:
 passport.use(
