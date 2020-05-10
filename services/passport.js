@@ -18,5 +18,3 @@ passport.use(
     }
   )
 );
-
-// export to make available for rest of project
