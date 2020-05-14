@@ -49,4 +49,5 @@ module.exports = (survey) => {
 ```
 
 ## What it looks like:
-[!Screenshot](/survey-19-screenshots/Capture.JPG)
+![Screenshot](https://raw.githubusercontent.com/nhussain2/survey-19-repo/master/survey-19%20screenshots/Capture.JPG)
+![Screenshot](https://raw.githubusercontent.com/nhussain2/survey-19-repo/master/survey-19%20screenshots/Capture2.JPG)
