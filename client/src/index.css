@@ -1,0 +1,41 @@
+.survey19 {
+  color: #ff9100;
+  font-family: "Anton", sans-serif;
+  padding: 0%;
+  margin-bottom: 0px;
+}
+
+.survey19 a {
+  color: #ff9100;
+}
+
+.survey19 a:hover {
+  color: white;
+}
+
+.survey19 :hover {
+  color: white;
+}
+
+.survey19desc {
+  color: white;
+  font-size: large;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 10px;
+}
+
+.survey19desc a {
+  color: #ff9100;
+}
+
+.survey19desc a:hover {
+  color: white;
+}
+
+.googlelogin a {
+  color: #ff9100;
+}
+
+.googlelogin a:hover {
+  color: white;
+}

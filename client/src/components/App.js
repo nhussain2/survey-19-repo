@@ -15,7 +15,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div
+        style={{
+          backgroundColor: "#424242",
+          height: "100vh",
+        }}
+      >
         <BrowserRouter>
           <div>
             <Header />
