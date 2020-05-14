@@ -6,9 +6,11 @@ const passport = require("passport");
 const bodyParser = require("body-parser");
 const keys = require("./config/keys");
 require("./models/User");
+require("./models/Survey");
 require("./services/passport");
 
 // wire up mongoose to app
+mongoose.Promise = global.Promise;
 mongoose.connect(keys.mongoURI);
 
 // set up config, pass authRoutes, cookie session
@@ -27,6 +29,7 @@ app.use(passport.session());
 
 require("./routes/authRoutes")(app);
 require("./routes/billingRoutes")(app);
+require("./routes/surveyRoutes")(app);
 
 if (process.env.NODE_ENV === "production") {
   // Express serves up production assets eg. main.js, main.css
