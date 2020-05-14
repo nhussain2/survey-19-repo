@@ -3,6 +3,12 @@ __An easy email-surveying web app for healthcare providers.__
 <br>
 Uses React, MongoDB, Stripe, Google OAuth, Redux, PassportJS and NodeJS
 
+## Features:
+- Responsive web-interface to fill out a survey and send it to patients using SendGrid
+- Credit system using Stripe integration to charge user for specific surveys
+- Google OAuth for secure user login and logout
+- Connection to MongoDB to view statistics and further utilize results for analytics
+
 ## Hook up to your own server
 Set up a Heroku app repo, clone the project and deploy it into Heroku. Make sure you have Config Vars to match
 the keys:
