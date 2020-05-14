@@ -1,7 +1,7 @@
 # SURVEY-19
 __An easy email-surveying web app for healthcare providers.__
 <br>
-Uses React, MongoDB, Stripe, Google OAuth, Redux and NodeJS
+Uses React, MongoDB, Stripe, Google OAuth, Redux, PassportJS and NodeJS
 
 ## Hook up to your own server
 Set up a Heroku app repo, clone the project and deploy it into Heroku. Make sure you have Config Vars to match
@@ -49,5 +49,4 @@ module.exports = (survey) => {
 ```
 
 ## What it looks like:
-
-
+[!Screenshot](/survey-19-screenshots/Capture.JPG)
