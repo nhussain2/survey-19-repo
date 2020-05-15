@@ -55,6 +55,6 @@ module.exports = (survey) => {
 ```
 
 ## What it looks like:
-Simple, friendly UI that is customizable! 
+Simple, friendly UI that is customizable! <br>
 ![Screenshot](https://raw.githubusercontent.com/nhussain2/survey-19-repo/master/survey-19%20screenshots/Capture.JPG)
 ![Screenshot](https://raw.githubusercontent.com/nhussain2/survey-19-repo/master/survey-19%20screenshots/Capture2.JPG)
